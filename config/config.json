@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "three-column-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/threeColumnPage/ThreeColumnPageWebPart.js",
+          "manifest": "./src/webparts/threeColumnPage/ThreeColumnPageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "ThreeColumnPageWebPartStrings": "lib/webparts/threeColumnPage/loc/{locale}.js"
+  }
+}

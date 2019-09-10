@@ -1,7 +1,7 @@
 {
   "name": "three-column-app-page",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "main": "lib/index.js",
   "engines": {
     "node": ">=0.10.0"
